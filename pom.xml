@@ -17,6 +17,16 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+   <!-- incluido para quitar el error de pom.xml -->
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///C:/Windows/System32/config/systemprofile/AppData/Local/Jenkins/.jenkins/workspace/calidadP4Deploy</url>
+       </repository>
+   </distributionManagement>
+  <!-- //////////////////////////////////////////////////////////////////////////////////////////////////-->
+
 
   <dependencies>
     <dependency>
