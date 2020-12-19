@@ -7,10 +7,6 @@ import org.junit.Test;
 public class TestJUnit {
 
 	@Test
-	public void test() {
-		//fail("Not yet implemented");
-	}
-	@Test
 	public void test_getArea() {
 		Rectangulo rect = new Rectangulo(3,3);
 		double areareal = rect.getArea();
@@ -22,7 +18,7 @@ public class TestJUnit {
 	public void test_getLado1() {
 		Rectangulo rect = new Rectangulo(3,3);
 		double lado = rect.getLado1();
-		double ladoEsperado=4;//para provocar que no se pase el test
+		double ladoEsperado=3;
 		assertEquals(ladoEsperado, lado,0);	
 	}
 	
