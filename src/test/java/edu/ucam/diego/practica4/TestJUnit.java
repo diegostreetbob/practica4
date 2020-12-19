@@ -15,7 +15,6 @@ public class TestJUnit {
 		Rectangulo rect = new Rectangulo(3,3);
 		double areareal = rect.getArea();
 		double areaesperada=9.0;
-		assertEquals(areaesperada, areareal,0);
+		assertEquals(areaesperada, areareal,0);	
 	}
-
 }
