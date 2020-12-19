@@ -17,4 +17,13 @@ public class TestJUnit {
 		double areaesperada=9.0;
 		assertEquals(areaesperada, areareal,0);	
 	}
+	
+	@Test
+	public void test_getLado1() {
+		Rectangulo rect = new Rectangulo(3,3);
+		double lado = rect.getLado1();
+		double ladoEsperado=4;//para provocar que no se pase el test
+		assertEquals(ladoEsperado, lado,0);	
+	}
+	
 }
