@@ -38,7 +38,7 @@ public class JUnitTestRectangulo {
 	}
 
 	@Test
-	public void testGetArea() {
+	public void getArea() {
 		double areareal = rect.getArea();
 		double areaesperada=9.0;
 		assertEquals(areaesperada, areareal,0);
